@@ -72,7 +72,7 @@ html {
   align-items: center;
   width: fit-content;
   gap: 5px;
-  padding-top: 5px;
+  margin-top: 5px;
   cursor: pointer;
 }
 
@@ -185,13 +185,13 @@ html {
 
 .button:focus-visible {
   outline: 1px solid #fff;
-  outline-offset: 1px;
+  outline-offset: 2px;
 }
 
 .content__details {
   width: 100%;
   height: 100%;
-  gap: 26px;
+  gap: 22px;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -229,6 +229,10 @@ html {
 .content__list-item {
   padding-right: 3px;
   padding-left: 3px;
+}
+
+.content__list-item:first-child {
+  margin-top: 3px;
 }
 
 .content__card-link {
@@ -277,6 +281,7 @@ html {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  width: 196px;
 }
 
 .content__video-card-description {
@@ -301,8 +306,10 @@ html {
 
 .more-button {
   max-width: 390px;
+  height: 34px;
   padding-bottom: 5px;
-  margin: 0 3px 2px 2px;
+  padding-top: 5px;
+  margin: 0px 3px 2px 3px;
 }
 
 h1,
