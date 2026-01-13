@@ -8,6 +8,25 @@ html {
   block-size: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+blockquote,
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
 .page {
   inline-size: 1200px;
   block-size: 100%;
@@ -26,7 +45,8 @@ html {
   flex-direction: row;
   align-items: end;
   width: 1140px;
-  height: 534px;
+  padding-top: 69px;
+  padding-bottom: 67px;
   gap: 30px;
 }
 
@@ -46,6 +66,7 @@ html {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .search-form {
@@ -212,7 +233,7 @@ html {
 
 .content__list-container {
   height: 298px;
-  overflow-y: scroll;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -277,11 +298,12 @@ html {
   line-height: 100%;
   text-transform: uppercase;
   color: #fff;
-  font-family: inherit;
+  font-family: "Oswald" sans-serif;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  width: 196px;
+  max-width: 196px;
+  width: 100%;
 }
 
 .content__video-card-description {
@@ -310,25 +332,6 @@ html {
   padding-bottom: 5px;
   padding-top: 5px;
   margin: 0px 3px 2px 3px;
-}
-
-h1,
-h2,
-h3,
-h4,
-p,
-ul,
-ol,
-li,
-blockquote,
-fieldset {
-  margin: 0;
-  padding: 0;
-}
-
-ul,
-ol {
-  list-style: none;
 }
 
 /* Кастомный скроллбар */
