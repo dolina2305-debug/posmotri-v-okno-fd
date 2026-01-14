@@ -233,7 +233,7 @@ ol {
 
 .content__list-container {
   height: 298px;
-  overflow-x: hidden;
+  overflow: auto;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -298,12 +298,13 @@ ol {
   line-height: 100%;
   text-transform: uppercase;
   color: #fff;
-  font-family: "Oswald" sans-serif;
+  font-family: "Oswald", sans-serif;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   max-width: 196px;
   width: 100%;
+  padding-bottom: 6px;
 }
 
 .content__video-card-description {
