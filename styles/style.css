@@ -45,8 +45,6 @@ ol {
   flex-direction: row;
   align-items: end;
   width: 1140px;
-  padding-top: 69px;
-  padding-bottom: 67px;
   gap: 30px;
 }
 
@@ -216,6 +214,7 @@ ol {
   display: flex;
   flex-direction: column;
   justify-content: end;
+  max-width: 399px;
 }
 
 .title {
@@ -328,11 +327,11 @@ ol {
 }
 
 .more-button {
-  max-width: 390px;
+  max-width: calc(100% - 6px);
   height: 34px;
   padding-bottom: 5px;
   padding-top: 5px;
-  margin: 0px 3px 2px 3px;
+  margin: 0 3px 0 3px;
 }
 
 /* Кастомный скроллбар */
